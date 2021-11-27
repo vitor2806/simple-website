@@ -1,0 +1,38 @@
+.boxcontato {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(242, 242, 242);
+    padding: 5%;
+}
+
+#email {
+    border-radius: 10px;
+    margin: 10px;
+    resize: none;
+    padding: 5px;
+    width: 50%;
+    height: 300px;
+}
+
+#mail-btn {
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(58, 69, 226);
+    padding: 10px 8px;
+    border-radius: 10px;
+}
