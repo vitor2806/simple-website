@@ -18,6 +18,7 @@ body {
 }
 
 .wallpaper {
+    position: relative;
     height: 35%;
     background-image: url(https://wallpaperaccess.com/full/1743662.jpg);
     background-size: cover;
@@ -31,8 +32,8 @@ body {
 
 header {
     user-select: none;
-    position: relative;
-    top: 35%;
+    position: absolute;
+    top: 75%;
     height: 48px;
     width: 45%;
     border-radius: 4px;
@@ -192,3 +193,7 @@ main {
     align-items: center;
 }
 
+@media screen and (max-width: 531px) {
+    .equipe {display: flex; flex-flow: column;}
+    .setor {width: auto;}
+}
